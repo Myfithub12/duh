@@ -1,14 +1,14 @@
 body {
     font-family: 'Roboto Serif', serif;
-    background-color: #0a1128;
+    background-color: #1f2e3d;
 }
 
 header {
-    background-color: #001f54;
+    background-color: blue;
 }
 
 footer {
-    background-color: #034078;
+    background-color: burlywood;
 }
 
 .row {
@@ -19,6 +19,3 @@ footer {
     text-align: center;
 }
 
-.name {
-    color: white;
-}
