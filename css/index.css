@@ -1,5 +1,6 @@
 body {
-    background-color: black;
+    font-family: 'Roboto Serif', serif;
+    background-color: #1f2e3d;
 }
 
 header {
@@ -11,9 +12,10 @@ footer {
 }
 
 .row {
-
+    text-align: center;
 }
 
 .col {
-
+    text-align: center;
 }
+
