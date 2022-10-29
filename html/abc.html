@@ -9,24 +9,18 @@
     <link href="https://fonts.googleapis.com/css2?family=Roboto+Serif:opsz,wght@8..144,400;8..144,500;8..144,600&display=swap" rel="stylesheet">
     <title>DUH</title>
     <link rel="stylesheet" type="text/css" href="css/abc.css">
+    <link rel="stylesheet" type="text/css" href="css/ham-menu.css">
+    <link rel="stylesheet" type="text/css" href="css/bootstrap.css">
 </head>
 <body>
     <header>
-        <nav>
-            <div id="row">
-                <div id="col">
-                    <p class="name"><a href="../index.html">HOME</a></p>
-                </div>
-            </div>
-            <div id="row">
-                <div id="col">
-                    <p class="name"><a href="def.html">DEF</a></p>
-                </div>
-            </div>
-            <div id="row">
-                <div id="col">
-                    <p class="name"><a href="ghi.html">GHI</a></p>
-                </div>
+        <nav id="hamnav">
+            <label for="hamburger">&#9776;</label>
+            <input type="checkbox" id="hamburger" />
+            <div id="hamitems">
+                    <a type="button" class="btn btn-success" href="../index.html">HOME</a>
+                    <a type="button" class="btn btn-success" href="def.html">DEF</a>
+                    <a type="button" class="btn btn-success" href="ghi.html">GHI</a>
             </div>
     </nav>
     </header>
