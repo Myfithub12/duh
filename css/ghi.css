@@ -11,11 +11,24 @@ body {
 }
 
 header {
-    background-color: #001f54;
+    background-color: whitesmoke;
 }
 
 footer {
-    background-color: #034078;
+    background-color: white;
+}
+
+#row {
+    text-align: center;
+}
+
+#col {
+    text-align: center;
+}
+
+.name {
+    text-align: center;
+    color: purple;
 }
 
 h6, .h6, h5, .h5, h4, .h4, h3, .h3, h2, .h2, h1, .h1 {
